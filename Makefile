@@ -28,7 +28,8 @@ CXXFLAGS += -Wextra
 
 
 #CXXFLAGS= ${BITS}     -g
-LDFLAGS+= -lrt -lm
+#LDFLAGS+= -lrt -lmA
+LDFLAGS+= -t 
 CC=g++
 #CXXFLAGS= ${BITS} -O3 -p -pg ${CXXFLAGS} # -DNDEBUG
 CXXFLAGS:= ${BITS} -O3        ${CXXFLAGS} # -DNDEBUG
